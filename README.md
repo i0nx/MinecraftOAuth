@@ -43,7 +43,7 @@ Add the following to your `pom.xml`:
 <dependency>
     <groupId>xyz.zeyso</groupId>
     <artifactId>MinecraftOAuth</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
 </dependency>
 ```
 ## Usage
@@ -125,7 +125,7 @@ public class Example {
 ## Custom Client ID
 By default, the library uses Microsoft's official Minecraft client ID. 
 You can provide your own client ID if needed:
-```
+```java
 AutomaticAuthenticator authenticator = new AutomaticAuthenticator("your-client-id");
 ```
 ## License
