@@ -124,4 +124,5 @@ AutomaticAuthenticator authenticator = new AutomaticAuthenticator("your-client-i
 This project is open source. Please respect Microsoft's and Mojang's terms of service when using this library.
 ## Notes
 This authentication flow is the official Microsoft OAuth flow used by the Minecraft Launcher.
+
 When using this library in production applications, handle exceptions properly and provide appropriate feedback to users
