@@ -32,6 +32,14 @@ MinecraftOAuth provides a simple way to authenticate with Minecraft using Micros
 Add the following to your `pom.xml`:
 
 ```xml
+<repositories>
+    <!-- Custom Repository -->
+    <repository>
+        <id>xyz.zeyso</id>
+        <url>https://repo.zeyso.xyz/repo/</url>
+    </repository>
+
+</repositories>
 <dependency>
     <groupId>xyz.zeyso</groupId>
     <artifactId>MinecraftOAuth</artifactId>
@@ -41,7 +49,7 @@ Add the following to your `pom.xml`:
 ## Usage
 ### GUI Authentication
 import xyz.zeyso.AuthenticatorWithGUI;
-```
+```java
 public class Example {
     public static void main(String[] args) {
         try {
@@ -64,7 +72,7 @@ public class Example {
 }
 ```
 ### Automatic Authentication
-```
+```java
 import xyz.zeyso.AutomaticAuthenticator;
 
 public class Example {
@@ -85,7 +93,7 @@ public class Example {
 }
 ```
 ### Command-line Authentication
-```
+```java
 import xyz.zeyso.MinecraftAuthenticator;
 
 public class Example {
