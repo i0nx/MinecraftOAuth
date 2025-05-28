@@ -105,7 +105,7 @@ public class Example {
     }
 }
 ```
-##Authentication Flow
+## Authentication Flow
 1. User logs in with Microsoft account
 2. Microsoft provides an authorization code
 3.  Code is exchanged for a Microsoft access token
@@ -120,8 +120,8 @@ You can provide your own client ID if needed:
 ```
 AutomaticAuthenticator authenticator = new AutomaticAuthenticator("your-client-id");
 ```
-##License
+## License
 This project is open source. Please respect Microsoft's and Mojang's terms of service when using this library.
-##Notes
+## Notes
 This authentication flow is the official Microsoft OAuth flow used by the Minecraft Launcher.
 When using this library in production applications, handle exceptions properly and provide appropriate feedback to users
