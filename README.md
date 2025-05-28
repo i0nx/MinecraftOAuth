@@ -39,7 +39,7 @@ Add the following to your `pom.xml`:
 </dependency>
 ```
 ## Usage
-###GUI Authentication
+### GUI Authentication
 import xyz.zeyso.AuthenticatorWithGUI;
 ```
 public class Example {
